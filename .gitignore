@@ -1,0 +1,7 @@
+# Build outputs
+target/
+
+# IDE
+.idea/
+.vscode/
+*.iml
