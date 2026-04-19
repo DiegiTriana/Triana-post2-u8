@@ -21,12 +21,16 @@ mvn clean spring-boot:run
 - `GET /api/inventario/productos`
 - `GET /api/inventario/productos/{id}`
 
-## Evidencias de Verificacion (2026-04-17 16:26:56)
+## Evidencias de Verificacion 
+
+![command](captura1.png)
+
+![command](captura2.png)
 
 | Checkpoint | Estado | Evidencia |
 |---|---|---|
 | Compila sin errores (mvn compile) | PASS | mvn -q -DskipTests compile |
-| Aplicacion inicia en puerto de prueba | PASS | http://localhost:18506 |
+
 | POST crea producto y retorna 201 | PASS | status=201, productoId=cd31d54b-cab8-4e2c-9ec6-2b977b918000 |
 | PATCH con delta positivo incrementa stock | PASS | status=200 |
 | PATCH excediendo stock retorna 400 | PASS | status=400 |
