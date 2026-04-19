@@ -25,7 +25,7 @@ mvn clean spring-boot:run
 
 ![command](captura1.png)
 
-![command](captura2.png)
+![command](cap2.png)
 
 | Checkpoint | Estado | Evidencia |
 |---|---|---|
